@@ -1,0 +1,370 @@
+/*
+*{
+    outline:  solid black 1px;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos aplicados a toda la página*/
+body{
+    background-color: #f5ebdc;
+    font-family: arial, sans-serif;
+    line-height: 1.5;
+}
+
+/*Estilos de la barra de navegación*/
+.nav{
+    background-color: #f5ebdc;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav img{
+    width: 50px;
+}
+
+#promos{
+    background-color: #d62400;
+    color: #fff;
+    padding: 13px;
+}
+
+.nav button{
+    border: none;
+    color: #4f2314;
+    background-color: #f5ebdc;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.nav button:hover{
+    background-color: #c7c7c76b;
+    color: #bb1f00;
+}
+
+.nav button, .nav img{
+    margin: 10px 15px 10px;
+}
+
+/*Ajustes de tamaño del banner*/
+.banner{
+    max-width: 100%;
+}
+
+.banner img{
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+/*Estilos para la seccion de locales*/
+.locales {
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 32px;
+    border-radius: 15px;
+    background-color: #f0e0cc;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 19%;
+}
+
+.locales-text{
+    flex: 1 1 300px;
+}
+
+.locales-text h1 {
+    font-size: 32px;
+    color: #4f2314;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.locales-text p {
+    font-size: 16px;
+    color: #4f2314;
+    margin-bottom: 24px;
+}
+
+/*Estilos de la barra de busqueda de la seccion "locales"*/
+.buscador {
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buscador input {
+    flex: 1;
+    border: none;
+    padding: 13px;
+    font-size: 16px;
+    color: #4f2314;
+    outline: none;
+}
+
+.buscador button {
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #4f2314;
+}
+
+.locales-img{
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.locales-img img{
+    width: 100%;
+    max-width: 250px;
+}
+
+/*Estilos de la seccion de novedades*/
+.novedades{
+    margin: 6%;
+}
+
+.novedades h3{
+    color: #502314;
+    cursor: pointer;
+}
+
+.novedades p{
+    color: #714B3C;
+}
+
+.novedades-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15%;
+    align-items: center;
+}
+
+.novedades-text a{
+    color: #d72300;
+    text-decoration: none;
+}
+
+.novedades-text a:hover{
+    color: rgba(215, 35, 0, 0.8);
+}
+
+.novedades-container{
+    margin-left: 15%;
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.nov{
+    margin: 10px;
+    flex: 1 ;
+}
+
+.nov img{
+    height: 240px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 0px;
+}
+
+.nov a img:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
+}
+
+/*Estilo de la sección cupones*/
+.cupones-text{
+    display: flex;
+    margin: 10px 14%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cupones-text a{
+    color: #d72300;
+    text-decoration: none;
+}
+
+.cupones-text a:hover{
+    color: rgba(215, 35, 0, 0.8);
+}
+
+.cupones img{
+    height: 260px;
+    border-radius: 20px;
+    margin: 8px;
+    width: 380px;
+    cursor: pointer;
+}
+
+.cupones img:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
+}
+
+.cupones{
+    justify-content: space-around;
+    text-align: center;
+    margin: 6%;
+}
+
+.cupones h2{
+    color: #502314;
+}
+
+/*estilos de la sección telefono*/
+.telefono{
+    background-color: #D72300;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-telefono{
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+}
+
+.img-telefono img{
+    width: 120px;
+    height: 45px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.img-celular img{
+    flex: 1;
+    width: 500px;
+    margin-top: 56px;
+    margin-left: 230px;
+    display: flex;
+}
+
+.container-telefono{
+    flex: 1;
+    max-width: 100%;
+    margin: 50px;
+}
+
+.container-telefono h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.container-telefono h4{
+    color: #502314;
+}
+
+/*Estilos del footer*/
+footer{
+    background-color: #502314;
+}
+
+.burger-king{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 20%;
+}
+
+.text-burger{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info{
+    display: flex;          
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.info2{
+    display: flex;    
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.text-burger h1{
+    color: #fff;
+    padding: 10px;
+}
+
+.burger-king{
+    color: #fff;
+    cursor: pointer;
+}
+
+.info a{
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.info2 a{
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.info a:hover, .info2 a:hover{
+    color: rgba(215, 35, 0, 0.8);
+}
+
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 20px;
+    background-color: #502314;
+}
+.footer-final-text h6{
+    color: #fff;
+}
+
+.footer-final-img{
+    height: 30px;
+    display: flex;
+    margin: 0px 23% 0px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.footer-final-text{
+    margin: 0px 8% 0px;
+}
