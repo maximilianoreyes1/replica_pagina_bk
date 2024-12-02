@@ -151,7 +151,12 @@ body{
     margin: 6%;
 }
 
-.novedades h3{
+.nov-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.novedades h2{
     color: #502314;
     cursor: pointer;
 }
@@ -163,6 +168,7 @@ body{
 .novedades-text{
     display: flex;
     justify-content: space-between;
+    margin: 10px 13%;
     margin: 10px 15%;
     align-items: center;
 }
@@ -177,7 +183,8 @@ body{
 }
 
 .novedades-container{
-    margin-left: 15%;
+    width: 75%;
+    max-width: 80%;
     max-width: 70%;
     display: flex;
     justify-content: center;
@@ -218,6 +225,11 @@ body{
 }
 
 .cupones img{
+    flex: 1;
+    height: 260px;
+    border-radius: 20px;
+    margin: 8px;
+    width: 23%;
     height: 260px;
     border-radius: 20px;
     margin: 8px;
