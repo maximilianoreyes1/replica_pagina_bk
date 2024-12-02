@@ -168,9 +168,7 @@ body{
 .novedades-text{
     display: flex;
     justify-content: space-between;
-    margin: 10px 13%;
     margin: 10px 15%;
-    align-items: center;
 }
 
 .novedades-text a{
@@ -185,7 +183,6 @@ body{
 .novedades-container{
     width: 75%;
     max-width: 80%;
-    max-width: 70%;
     display: flex;
     justify-content: center;
 }
