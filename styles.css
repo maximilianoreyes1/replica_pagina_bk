@@ -1,22 +1,17 @@
-/*
-*{
-    outline:  solid black 1px;
-}
-*/
-
+/* Eliminación de estilos predeterminados de margen y padding en todos los elementos */
 *{
     margin: 0;
     padding: 0;
 }
 
-/*Estilos aplicados a toda la página*/
+/* Estilo general del cuerpo de la página */
 body{
-    background-color: #f5ebdc;
-    font-family: arial, sans-serif;
-    line-height: 1.5;
+    background-color: #f5ebdc; /* Color de fondo */
+    font-family: arial, sans-serif; /* Fuente */
+    line-height: 1.5; /* Espaciado entre líneas */
 }
 
-/*Estilos de la barra de navegación*/
+/* Barra de navegación fija en la parte superior */
 .nav{
     background-color: #f5ebdc;
     width: 100%;
@@ -39,10 +34,11 @@ body{
     width: 50px;
 }
 
+/* Botón de promociones destacado */
 #promos{
-    background-color: #d62400;
-    color: #fff;
-    padding: 13px;
+    background-color: #d62400; /* Fondo rojo */
+    color: #fff; /* Texto blanco */
+    padding: 13px; /* Espaciado interno */
 }
 
 .nav button{
@@ -57,25 +53,24 @@ body{
 }
 
 .nav button:hover{
-    background-color: #c7c7c76b;
-    color: #bb1f00;
+    background-color: #c7c7c76b; /* Fondo semitransparente al pasar */
+    color: #bb1f00; /* Cambio de color en hover */
 }
 
 .nav button, .nav img{
     margin: 10px 15px 10px;
 }
 
-/*Ajustes de tamaño del banner*/
 .banner{
     max-width: 100%;
 }
 
 .banner img{
-    margin-top: 50px;
+    margin-top: 50px; /* Separación superior para evitar superposición */
     max-width: 100%;
 }
 
-/*Estilos para la seccion de locales*/
+/* Sección de locales con diseño flexible */
 .locales {
     max-width: 60%;
     display: flex;
@@ -94,7 +89,7 @@ body{
 }
 
 .locales-text h1 {
-    font-size: 32px;
+    font-size: 32px; /* Tamaño de texto */
     color: #4f2314;
     margin-bottom: 8px;
     font-weight: 600;
@@ -106,14 +101,13 @@ body{
     margin-bottom: 24px;
 }
 
-/*Estilos de la barra de busqueda de la seccion "locales"*/
+/* Barra de búsqueda dentro de "locales" */
 .buscador {
     border-radius: 10px;
     width: 80%;
     display: flex;
     align-items: center;
     background-color: #fff;
-    border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -146,7 +140,7 @@ body{
     max-width: 250px;
 }
 
-/*Estilos de la seccion de novedades*/
+/* Estilos de la sección de novedades */
 .novedades{
     margin: 6%;
 }
@@ -177,7 +171,7 @@ body{
 }
 
 .novedades-text a:hover{
-    color: rgba(215, 35, 0, 0.8);
+    color: rgba(215, 35, 0, 0.8); /* Cambio de color en hover */
 }
 
 .novedades-container{
@@ -201,10 +195,10 @@ body{
 }
 
 .nov a img:hover{
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra al pasar */
 }
 
-/*Estilo de la sección cupones*/
+/* Estilo de la sección cupones */
 .cupones-text{
     display: flex;
     margin: 10px 13%;
@@ -231,7 +225,7 @@ body{
 }
 
 .cupones img:hover{
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); ;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .cupones{
@@ -244,7 +238,7 @@ body{
     color: #502314;
 }
 
-/*estilos de la sección telefono*/
+/* Estilos de la sección teléfono */
 .telefono{
     background-color: #D72300;
     display: flex;
@@ -297,7 +291,7 @@ body{
     color: #502314;
 }
 
-/*Estilos del footer*/
+/* Estilos del footer */
 footer{
     background-color: #502314;
 }
@@ -322,7 +316,7 @@ footer{
 }
 
 .info, .info2{
-    display: flex;          
+    display: flex;
     flex-direction: column;
 }
 
@@ -352,6 +346,7 @@ footer{
     padding: 30px 0px 20px;
     background-color: #502314;
 }
+
 .footer-final-text h6{
     color: #fff;
     margin-left: 10px;
