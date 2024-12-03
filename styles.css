@@ -147,6 +147,7 @@ body{
 
 .nov-cont{
     display: flex;
+    justify-content: center;
 }
 
 .novedades h2, .novedades h3{
